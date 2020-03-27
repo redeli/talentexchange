@@ -1,0 +1,66 @@
+
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body
+{
+  background-size: cover;
+  background-position: center;
+  font-family: 'Raleway', serif;
+}
+.bar
+{
+  background: #333;
+  text-align: center;
+}
+.bar ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.bar ul li
+{
+  float: left;
+}
+.bar ul li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.bar ul li a:hover
+{
+background-color: #111;
+}
+.bar .fas
+{
+  margin-right: 8px;
+}
+.sub1
+{
+  display: none;
+}
+.bar ul li:hover .sub1
+{
+  display: block;
+  position: absolute;
+  background: #333;
+}
+.bar ul li:hover .sub1 ul
+{
+  float: left;
+}
+.bar ul li:hover .sub1 ul li
+{
+  display: block;
+color: white;
+text-align: center;
+text-decoration: none;
+}
